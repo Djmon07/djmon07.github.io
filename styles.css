@@ -1,0 +1,269 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+/***header***/
+header {
+  display: flex;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  color: gray;
+  background-color: #29418f;
+  height: 150px;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px black;
+  padding: 5px;
+  background: gray;
+}
+
+/***body***/
+body {
+  background-image: url(https://404store.com/2017/03/21/maxresdefault.jpg);
+  background-position: center;
+  background-size: auto;
+  font-family: sans-serif, serif;
+}
+
+/***persona***/
+
+.per_h2 {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.persona {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  border: solid 2px gray;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 300px;
+  background-color: white;
+  font-size: 35px;
+}
+
+.persona p {
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.persona h3 {
+  border-bottom: none;
+  margin-top: 10px;
+}
+
+.persona_1{
+  margin-top: 10px;
+}
+/***Hobbies***/
+
+.Hob_h2 {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.Hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  background-color: #4971f5;
+  border: solid 1px white;
+  border-radius: 30px;
+  font-family: cursive;
+}
+
+.Hobbies img {
+  width: 70px;
+  height: 70px;
+}
+
+.Music_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+}
+
+.Hobbies h3 {
+  font-size: 40px;
+}
+
+.Amus_Park {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.Hobbies p {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+
+/***Knoledge***/
+.know {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+
+.knowledge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  width: 70%;
+  color: white;
+  background-color: #6b6a68;
+  height: 300px;
+  align-items: center;
+  padding-left: 10px;
+  border: solid 5px black;
+  border-radius: 10px;
+}
+
+.GitHub {
+  width: 80px;
+  height: 80px;
+  border: solid 3px Black;
+}
+
+.Know_h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+/***footer***/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d0870;
+  color: #dedce3;
+  font-size: 20px;
+  padding: 30px;
+}
+
+/***resizing***/
+/***persona***/
+@media only screen and (min-width: 1300px) {
+  .persona {
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    flex-direction: row;
+  }
+
+  .per_1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid 2px gray;
+    padding: 5px;
+    background-color: white;
+    margin-right: 10px;
+  }
+
+  .per_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid 2px gray;
+    padding: 5px;
+    background-color: white;
+  }
+  /***hobbies***/
+
+  .Hobbies {
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    flex-direction: row;
+  }
+
+  .Hobbies h3 {
+    margin-top: 10px;
+  }
+
+  .Music_logo {
+    height: 70px;
+  }
+
+  .Hob_mus {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid 2px white;
+    padding: 5px;
+    background-color: #4971f5;
+    border: solid 1px white;
+    border-radius: 30px;
+    height: 550px;
+    margin-right: 10px;
+  }
+  .Hob_Amus {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid 2px white;
+    padding: 5px;
+    background-color: #4971f5;
+    border: solid 1px white;
+    border-radius: 30px;
+    height: 550px;
+  }
+
+  .Amus_Park {
+    margin-top: 20px;
+  }
+}
