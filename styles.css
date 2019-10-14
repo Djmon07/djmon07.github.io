@@ -170,6 +170,16 @@ body {
   border-radius: 10px;
 }
 
+.knowledge a {
+  display: flex;
+  border: gray 3px solid;
+  font-size: 20px;
+  color: red;
+  padding: 10px;
+  background-color: black;
+  text-decoration: none;
+}
+
 .GitHub {
   width: 80px;
   height: 80px;
@@ -248,7 +258,7 @@ footer {
     background-color: #4971f5;
     border: solid 1px white;
     border-radius: 30px;
-    height: 550px;
+    height: 700px;
     margin-right: 10px;
   }
   .Hob_Amus {
@@ -260,7 +270,7 @@ footer {
     background-color: #4971f5;
     border: solid 1px white;
     border-radius: 30px;
-    height: 550px;
+    height: 700px;
   }
 
   .Amus_Park {
