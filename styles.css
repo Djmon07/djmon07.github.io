@@ -204,8 +204,7 @@ footer {
   padding: 30px;
 }
 
-/***resizing***/
-/***persona***/
+/***resizing and persona***/
 @media only screen and (min-width: 1300px) {
   .persona {
     width: 70%;
